@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>registroMedicos</title>
+    <link rel="stylesheet" href="configuracion.css">
+
+
+</head>
+
+<body class="uno">
+    <h2 class="unoDos">REGISTROS MEDICOS</h2>
+    <br>
+    <br>
+
+
+    <div>
+        <div class="fondo">
+            <br>
+            <br>
+            <br>
+            <br>
+            <form id="registroMedicosForm">
+                <label class="lT"><b>Nombres:</b></label>
+                <input class="unoDosTres" type="text" placeholder="Ingresa tus nombres" required id="nombres"
+                    name="nombre">
+                <label class="lT" for=""><b>Apellidos:</b></label>
+                <input class="unoDosTres" type="text" placeholder="Ingresa tus apellidos" required id="apellidos"
+                    name="apellido">
+                <label class="lT" for=""><b>Numero de cedula:</b></label>
+                <input class="unoDosTres" type="number" placeholder="Ingrese numero de cedeula" required
+                    id="numeroCedula" name="numeroCedula">
+                <label class="lT" for=""><b>Numero celular</b></label>
+                <input class="unoDosTres" type="tel" placeholder="Ingresa numero de telefono" required id="telefono"
+                    name="telefono">
+                <label class="lT" for=""><b>Numero del consultorio:</b></label>
+                <input class="unoDosTres" type="number" placeholder="Ingresa el consultorio" required
+                    id="numeroConsultorio" name="numeroConsultorio">
+                <label class="lT" for=""><b>Correo electronico:</b></label>
+                <input class="unoDosTres" type="email" placeholder="Ingresa su correo electronico" required id="correo" name="correo">
+                <label class="lT" for=""><b>Especialidad</b></label>
+                <select class="unoDosTres" required id="especialidad" name="especialidad">
+                    <option value="M D">-------- Seleccione una Especialidad---------</option>
+                    <option value="M G">Medicina General</option>
+                    <option value="C A">Cardiologia</option>
+                    <option value="D M">Dermatologia</option>
+                    <option value="R F">Rehabilitacion fisica</option>
+                    <option value="P S">Psicologia</option>
+                    <option value="O D">Odontologia</option>
+                    <option value="R D">Radiologia</option>
+                </select>
+                <input class="bb" type="submit" value="Enviar">
+                <a class="bbVolver" href="index.html">Volver</a>
+            </form>
+            <footer>
+                <h2>Realizado por:</h2>
+                <p>Grupo 1 desarrollo web backend</p>
+                <p><i>Maria carolina Ballestas Acevedo</i></p>
+            </footer>
+            
+            <script src="jeison/app.js"></script>
+    </div>
+
+</body>
+
+</html>
