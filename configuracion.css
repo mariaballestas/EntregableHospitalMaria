@@ -14,7 +14,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     text-align: center;
-    background: url(fondoazul.jpn.avif);  
+    background-image: url("imagen/fondoazul.jpn.avif");
 }
 footer{
     position: static;
@@ -43,7 +43,7 @@ footer{
 .fondo{
     margin: -15%;
     padding: -5px;
-    background-color: #766b72;
+    background-color: #c0a9b7;
     background-size: cover;
     
     font-family: sans-serif;
@@ -52,8 +52,9 @@ footer{
 .fondoDos{
     margin: -15%;
     padding: -5px;
-    background: url(hospitalOcho.jpg);   
+    background-color: #c0a9b7;   
     background-size: cover;
+    
     
     font-family: sans-serif;
 }
